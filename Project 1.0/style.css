@@ -1,0 +1,168 @@
+.conteiner{
+    background: #000000;
+    height: 625px;
+}
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  /* @font-face{
+  font-family: 'Montserrat', sans-serif;
+  src: url(font/Montserrat-ThinItalic.ttf);
+  } */
+  @font-face{
+    font-family: 'Lato', sans-serif;
+    src: url('<link rel="preconnect" href="https://fonts.gstatic.com">');
+  }
+  .container__image{
+    position: absolute;
+    width: 550px;
+    height: 600px;
+    left: -50px;
+    top: 15px;
+  }
+  .conteiner__text_1{
+      color:#FFFFFF;
+      font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 72px;
+line-height: 88px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+position: absolute;
+width: 823px;
+height: 88px;
+left: 310px;
+top: 60px;
+  }
+  .conteiner__text_2{
+    /* font-family: Montserrat; */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 88px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    position: absolute;
+width: 333px;
+height: 88px;
+left: 810px;
+top: 150px;
+  }
+  .conteiner__text_3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 24px;
+    /* or 33% */
+    
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    position: absolute;
+width: 568px;
+height: 88px;
+left: 570px;
+top: 240px;
+  }
+  .conteiner__text_4{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    
+    
+    color: #FFFFFF;
+    position: absolute;
+width: 439px;
+height: 190px;
+left: 570px;
+top: 350px;
+  }
+  .tel{
+    color: #FF00A8;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    position: absolute;
+/* width: 439px;
+height: 190px; */
+left: 570px;
+top: 520px;
+  }
+  .mail{
+    color: #FE7728;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    position: absolute;
+/* width: 439px;
+height: 190px; */
+left: 570px;
+top: 540px;
+  }
+  .site{
+    color: #FFE600;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    position: absolute;
+/* width: 439px;
+height: 190px; */
+left: 570px;
+top: 560px;
+  }
+  .container__ellipse_2{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 380px;
+    top: 420px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FF00A8 0%, #FE772B 58.33%, #FFE600 100%);
+  }
+
+  .container__ellipse_2 {
+    /* stroke: red; */
+    stroke-width:6;
+    /* stroke-dasharray:3 2; */
+      transform-origin: center center;
+      transform-box: fill-box;
+      animation: rotate_disk 2s linear forwards infinite;
+    }
+  
+    @keyframes rotate_disk {
+        100% {
+            transform: rotateZ(360deg);
+        }
+    }
