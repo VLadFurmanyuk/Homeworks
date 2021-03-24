@@ -1,0 +1,86 @@
+
+
+
+
+        .block_1{
+            /* margin-top: 90px;
+            margin-left: 213px; */
+            position: absolute;
+            left: 150px;
+            width: 269px;
+            height: 268px;
+            perspective: 1000px;
+        } 
+        .block_1:hover .rotate_1    {
+            transform: rotateY(180deg);
+            background: url(Rectangle.png);
+        }
+        .rotate_1{
+            position: relative;
+            transition: 0.5s;
+            transform-style: preserve-3d;
+            
+        }
+        .card_front{
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 269px;
+            height: 268px;
+        }
+        .card_1_back_face{
+            position: absolute;
+            left: 0px;
+            /* width: 370px;
+            height: 535px; */
+            width: 245px;
+            height: 375px;
+            transform: rotateY(180deg);
+        }
+
+
+
+        .block_2{
+            /* margin-top: 90px; */
+            position: absolute;
+            top: 8px;
+            margin-left: 450px;
+            width: 269px;
+            height: 268px;
+            perspective: 1000px;
+        } 
+        .block_2:hover .rotate_2    {
+            transform: rotateY(180deg);
+            background: url(Rectangle.png);
+        }
+        .rotate_2{
+            position: relative;
+            transition: 0.5s;
+            transform-style: preserve-3d;
+            
+        }
+        .card_front_2{
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            /* width: 269px;
+            height: 268px; */
+
+            /* width: 10px;
+            height: 10px; */
+        }
+        .card_2_back_face{
+            /* width: 350px;
+            height: 375px; */
+
+                width: 250px;
+            height: 400px;
+
+            margin-top: -30px;
+
+
+            transform: rotateY(180deg);
+        }
+
